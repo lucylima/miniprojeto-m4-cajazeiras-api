@@ -36,9 +36,8 @@ const allBuslines = () => {
   return buslines
 }
 
-// ! pesquisa o itinerario pelo numero da linha
 const buslineNumber = (number) => {
+  return buslines.find(line => line.includes(number) === number)
+} 
 
-}
-
-export { buslines, allBuslines, buslineNumber }
+export { allBuslines, buslineNumber }

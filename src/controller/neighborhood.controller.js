@@ -1,4 +1,4 @@
-export const Bairros = [
+const neighborhoods = [
   "Águas Claras",
   "Boca da Mata",
   "Cajazeiras II",
@@ -17,3 +17,7 @@ export const Bairros = [
   "Fazenda Grande IV",
   "Jaguaripe I"
 ]
+
+export const allNeighborhoods = () => {
+  return neighborhoods
+}
